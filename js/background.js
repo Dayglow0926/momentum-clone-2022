@@ -1,9 +1,11 @@
 const backgroundImgList = [
-  "ABRELSHUD.png",
-  //"BALTAN.png",
-  "BIACKISS_center.png",
-  "ILLAKAN_center.png",
-  "kouku-Saton.png",
+  "background-img1.jpg",
+  "background-img2.jpg",
+  "background-img3.jpg",
+  "background-img4.jpg",
+  "background-img5.jpg",
+  "background-img6.jpg",
+  "background-img7.jpg",
 ];
 
 const foreground = document.querySelector(".foreground");
