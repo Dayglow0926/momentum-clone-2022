@@ -1,0 +1,15 @@
+h1 {
+  color: white;
+}
+
+body {
+  background-color: violet;
+}
+
+.big-width {
+  background-color: goldenrod;
+}
+
+.small-width {
+  background-color: deepskyblue;
+}
