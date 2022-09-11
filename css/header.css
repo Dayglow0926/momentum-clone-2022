@@ -29,5 +29,13 @@ header div {
 
 .header-content__weather {
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.header-content__weather-location {
+  display: flex;
   justify-content: flex-end;
+  font-size: 13px;
 }

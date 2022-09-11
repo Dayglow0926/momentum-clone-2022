@@ -1,4 +1,15 @@
 const api_key = "29b79234da2bc7ebdf49047690b73c76";
+const weather_img = document.querySelector(
+  ".header-content__weather-content img"
+);
+
+const weather_temp = document.querySelector(
+  ".header-content__weather-content span"
+);
+
+const weather_location = document.querySelector(
+  ".header-content__weather-location span"
+);
 
 function coordinateCheck(position) {
   const lat = position.coords.latitude;
@@ -11,14 +22,13 @@ function coordinateCheck(position) {
     .then((data) => {
       const temp = data.main.temp;
       const icon = data.weather[0].icon;
+      const name = data.name;
 
       const icon_url = `http://openweathermap.org/img/wn/${icon}@2x.png`;
 
-      document.querySelector(".header-content__weather-content img").src =
-        icon_url;
-      document.querySelector(
-        ".header-content__weather-content span"
-      ).innerHTML = `${temp}&#8451`;
+      weather_img.src = icon_url;
+      weather_temp.innerHTML = `${temp}&#8451`;
+      weather_location.innerHTML = `${name}`;
     });
 }
 
