@@ -250,3 +250,7 @@ main {
 .main-side-content__calendar-date .day.disable {
   color: #ddd;
 }
+
+.current.today {
+  background: rgb(242 242 242);
+}
