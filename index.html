@@ -34,7 +34,56 @@
     </header>
     <main>
       <div class="main-side-content left">
-        <span>News</span>
+        <span>Calendar</span>
+        <div class="main-side-content__calendar">
+          <div class="main-side-content__calendar-year-month">
+            <a href="javascript:void(0)"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 19.5L8.25 12l7.5-7.5"
+                />
+              </svg>
+            </a>
+            <span></span>
+            <a href="javascript:void(0)"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="main-side-content__calendar-date">
+            <div class="main-side-content__calendar-day">
+              <div class="day">MON</div>
+              <div class="day">TUE</div>
+              <div class="day">WED</div>
+              <div class="day">THU</div>
+              <div class="day">FRI</div>
+              <div class="day">SAT</div>
+              <div class="day">SUN</div>
+            </div>
+            <div class="main-side-content__calendar-dates"></div>
+          </div>
+        </div>
       </div>
       <div class="main-content">
         <div class="main-content__clock common-clock">
@@ -70,5 +119,6 @@
     <script src="js/background.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/calendar.js"></script>
   </body>
 </html>
