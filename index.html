@@ -4,21 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="test-img/mokoko-molru.png" />
+    <link rel="icon" href="img/mokoko-molru.png" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Momentum</title>
   </head>
   <body>
-    <div class="clock"></div>
-    <form class="login-form" action="">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="What is your name?"
-      />
-      <button>Log In</button>
-    </form>
     <header class="header-content">
       <div class="header-content__link">
         Link
@@ -42,10 +32,26 @@
       </div>
     </header>
     <main>
+      <div class="main-side-content left">
+        <span>News</span>
+      </div>
       <div class="main-content">
         <div class="main-content__clock common-clock">
           <span class="clock-hhmm"></span><span class="clock-ss"></span>
         </div>
+        <div class="main-content__intro">
+          <span class="main-content__intro-greet">Hello What your name?</span>
+          <form class="login-form">
+            <input type="text" autocomplete="off" spellcheck="false" />
+          </form>
+        </div>
+      </div>
+      <div class="main-side-content right">
+        <span>To do List</span>
+        <div>
+          <ul class="todo-list"></ul>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="footer-content">
