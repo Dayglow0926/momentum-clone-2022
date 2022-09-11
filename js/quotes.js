@@ -60,8 +60,8 @@ const quotes = [
   },
 ];
 
-const quote = document.querySelector(".quote-context .quote");
-const author = document.querySelector(".quote-context .author");
+const quote = document.querySelector(".footer-content__quote-text");
+const author = document.querySelector(".footer-content__quote-author");
 
 const quote_num = Math.floor(Math.random() * quotes.length);
 const quote_context = quotes[quote_num];
