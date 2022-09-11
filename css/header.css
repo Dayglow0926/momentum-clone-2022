@@ -8,6 +8,20 @@ header {
 header div {
   width: 33%;
 }
+
+.header-content__link {
+  display: flex;
+  align-items: flex-end;
+}
+.header-content__link-input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 2px solid white;
+  margin: 0px 5px;
+  outline: none;
+  color: white;
+}
+
 .header-content__clock {
   display: flex;
   justify-content: center;
