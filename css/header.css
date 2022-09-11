@@ -8,6 +8,11 @@ header {
 header div {
   width: 33%;
 }
+.header-content__clock {
+  display: flex;
+  justify-content: center;
+}
+
 .header-content__weather {
   display: flex;
   justify-content: flex-end;
