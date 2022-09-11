@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+header div {
+  width: 33%;
+}
+.header-content__weather {
+  display: flex;
+  justify-content: flex-end;
+}
